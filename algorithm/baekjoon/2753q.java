@@ -2,9 +2,9 @@ import java.util.*;
 
 public class Main{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         
-        int leap = sc.nextInt();
+        int leap = scan.nextInt();
         
         if(leap % 4 == 0 && leap % 100 != 0){
             System.out.println(1);
