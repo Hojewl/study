@@ -1,5 +1,5 @@
 update things that I've learned even if it's little.
 
-## 📒 velog : upload velog contents
+## 📒 [velog](https://velog.io/@s_yeah) : upload velog contents
 
-## 🖥 algorithm : studying algorithm 
+## 🖥 [algorithm](https://github.com/Hojewl/study/tree/main/algorithm/baekjoon) : studying algorithm 
