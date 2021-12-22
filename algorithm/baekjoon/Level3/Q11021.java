@@ -7,7 +7,7 @@
 
 import java.util.*;
 
-public class Main{
+public class Q11021{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         //테스트 케이스의 개수 T값
@@ -16,8 +16,8 @@ public class Main{
         for(int i=1; i <= total; i++){
             int firstNum = scan.nextInt();
             int secondNum = scan.nextInt();
-            int sum = firstNum + secondNum;
-            System.out.println("Case #"+i+": "+sum);
+            //int sum = firstNum + secondNum;
+            System.out.println("Case #"+i+": "+ firstNum + secondNum);
         }   
     }
 }

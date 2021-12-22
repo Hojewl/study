@@ -5,7 +5,7 @@
 
 import java.util.*;
 
-public class Main{
+public class Q10950{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 

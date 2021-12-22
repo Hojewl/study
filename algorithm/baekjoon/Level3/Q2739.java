@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class Main{
+public class Q2739{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         

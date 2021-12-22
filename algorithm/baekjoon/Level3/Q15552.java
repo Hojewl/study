@@ -7,7 +7,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main{
+public class Q15552{
     public static void main(String[] args){
         try{
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
