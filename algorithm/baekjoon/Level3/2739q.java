@@ -1,5 +1,6 @@
 //구구단을 출력해라
-//
+//입력받은 숫자의 곱셉들을 전부 출력
+
 import java.util.*;
 
 public class Main{
