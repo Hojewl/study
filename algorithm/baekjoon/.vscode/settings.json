@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Level4",
         "Level3",
-        "Level4"
+        "Level5"
     ]
 }
