@@ -14,22 +14,17 @@ public class Q2577 {
         int total = num1 * num2 * num3;
         //총 값을 문자열로 저장
         String totalStr = Integer.toString(total);
-        //문자열 한글자씩 배열에 저장
-        String [] strArr = new String [10];
-        for(int i=0;i<10;i++){
-            strArr[i] = "";
-        }
-        strArr = totalStr.split("");
+        
         //각 숫자의 개수를 알려줄 10개짜리 배열 생성 (0~9)
         int [] numArr = new int[10];
 
         for(int i=0;i<10;i++){
             //numArr 도는 for문
             int count = 0;
-            for(int j=0;j<10;j++){
-                //strArr 도는 for문
-                if(i==Integer.parseInt(strArr[j])){
-                    //numArr index값과 strArr[j]의 숫자가 같으면
+            for(int j=0;j<totalStr.length();j++){
+                //totalStr 도는 for문
+                if(i == totalStr.charAt(j)-'0'){
+                    //numArr index값과 totalStr.charAt(j)의 숫자가 같으면
                     numArr[i] = count++;
                 }else{
                     numArr[i] = 0;
