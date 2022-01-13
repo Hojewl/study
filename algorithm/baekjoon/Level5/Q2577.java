@@ -25,9 +25,10 @@ public class Q2577 {
                 //totalStr 도는 for문
                 if(i == totalStr.charAt(j)-'0'){
                     //numArr index값과 totalStr.charAt(j)의 숫자가 같으면
-                    numArr[i] = count++;
+                    count++;
+                    numArr[i] = count;
                 }else{
-                    numArr[i] = 0;
+                    numArr[i] = count;
                 }
             }
         }
