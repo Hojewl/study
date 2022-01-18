@@ -23,7 +23,7 @@ public class Q2577 {
             int count = 0;
             for(int j=0;j<totalStr.length();j++){
                 //totalStr 도는 for문
-                if(i == totalStr.charAt(j)-'0'){
+                if(i == totalStr.charAt(j)-48){
                     //numArr index값과 totalStr.charAt(j)의 숫자가 같으면
                     count++;
                     numArr[i] = count;
