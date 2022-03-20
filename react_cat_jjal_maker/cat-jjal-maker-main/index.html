@@ -134,11 +134,12 @@
       //구조분해할당
       const [counter, setCounter] = React.useState(
         //값을 locatStorage에 저장해서 변수를 가지고 있도록
-        jsonLocalStorage.getItem("counter")
+        jsonLocalStorage.getItem("counter") || 1
       );
       const [mainCatImg, setMainCatImg] = React.useState(CAT1);
       const [favorites, setFavorites] = React.useState(
         //빈배열이면 에러 발생(mapping이 안됨)
+        //null 값을 읽어올 수 없음
         jsonLocalStorage.getItem("favorites") || []
       );
       // const counter = counterState[0];
